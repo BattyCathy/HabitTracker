@@ -12,7 +12,7 @@ struct Activity {
 }
 
 class ActivityList {
-    
+    var activities = [Activity(name: "name")]
 }
 
 
