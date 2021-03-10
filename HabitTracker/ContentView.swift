@@ -11,12 +11,18 @@ struct Activity {
    let name: String
 }
 
-class ActivityList {
-    var activities = [Activity(name: "name")]
+class ActivityList: ObservableObject {
+    var activities: [Activity] = []
+    
+    func addActivity(name: String) {
+        activities.append(Activity(name: name))
+    }
 }
 
 
 struct ContentView: View {
+    
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
