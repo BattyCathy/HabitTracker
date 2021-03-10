@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+struct Activity {
+   let name: String
+}
+
+
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
