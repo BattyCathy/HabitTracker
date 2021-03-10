@@ -11,6 +11,10 @@ struct Activity {
    let name: String
 }
 
+class ActivityList {
+    
+}
+
 
 struct ContentView: View {
     var body: some View {
